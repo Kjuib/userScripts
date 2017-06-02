@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Facebook force most recent
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/Kjuib/userScripts/raw/master/src/facebook_most_recent.user.js
 // @version      0.1
 // @description  Make sure the Facebook icon on the header takes you to most recent
 // @author       heber.billings@gmail.com
