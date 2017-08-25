@@ -11,9 +11,10 @@
 (function() {
     'use strict';
 
-    var nodes = document.querySelectorAll('a[data-testid="blue_bar_fb_logo"]');
-    var node = nodes && nodes.item(0);
-    if (node) {
-        node.setAttribute('href', 'https://www.facebook.com/?sk=h_chr');
+    let nodes = document.querySelectorAll('a[href="https://www.facebook.com/?ref=logo"]');
+    if (nodes) {
+        nodes.forEach((node) => {
+            node.setAttribute('href', 'https://www.facebook.com/?sk=h_chr');
+        });
     }
 })();
