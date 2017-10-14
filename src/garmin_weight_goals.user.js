@@ -11,8 +11,40 @@
 (function() {
     'use strict';
 
-    let nodes = document.querySelectorAll('div.widget.weight');
-    if (nodes) {
-        console.log('nodes', nodes);
-    }
+    let updateWidget = (widgetBits) => {
+        let currentWeight = parseFloat(widgetBits[0].innerText.split(' ')[0]);
+        let goalWeight = parseFloat(widgetBits[1].innerText.split(' ')[0]);
+        let toGo = Math.round((currentWeight - goalWeight) * 100) / 100;
+        console.log('========================================> ' + toGo);
+
+        let e = document.createElement('span');
+        e.innerHTML = `(${toGo} to go)`;
+        e.style = 'margin-left: 5px; font-size: .7em;';
+        widgetBits[1].appendChild(e);
+    };
+
+    let getWidget = (widget) => {
+        let checkCount = 0;
+        let findWidget = setInterval(function() {
+            checkCount++;
+            let widgetBits = widget.querySelectorAll('.data-block .data-bit');
+            if (widgetBits.length > 0 || checkCount > 50) {
+                clearInterval(findWidget);
+                updateWidget(widgetBits);
+            }
+        }, 100);
+    };
+
+    let getWidgets = () => {
+        let checkCount = 0;
+        let findWidgets = setInterval(function() {
+            checkCount++;
+            let elementWidgets = document.querySelectorAll('div.widget.weight');
+            if (elementWidgets.length > 0 || checkCount > 10) {
+                clearInterval(findWidgets);
+                elementWidgets.forEach(getWidget);
+            }
+        }, 500);
+    };
+    getWidgets();
 })();
