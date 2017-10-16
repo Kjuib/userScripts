@@ -12,7 +12,7 @@
     'use strict';
 
     const CLASS_DONE = 'augmented404';
-    const START_DATE = 1505628000000;
+    const START_DATE = 1505520000000;
 
     let startData;
 
