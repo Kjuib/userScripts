@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Garmin Weight Goals
 // @namespace    https://github.com/Kjuib/userScripts/raw/master/src/garmin_weight_goals.user.js
-// @version      0.2
+// @version      0.2.1
 // @description  Show how much you have left to lose to meet your weight goals on the Garmin dashboards
 // @author       heber.billings@gmail.com
 // @match        https://connect.garmin.com/modern
@@ -12,7 +12,6 @@
     'use strict';
 
     const CLASS_DONE = 'augmented404';
-    const START_DATE = 1505520000000;
 
     let startData;
 
@@ -102,10 +101,10 @@
             checkCount++;
             if ($ || checkCount > 50) {
                 clearInterval(fetchData);
-                $.get(`https://connect.garmin.com/modern/proxy/userprofile-service/userprofile/personal-information/weightWithOutbound/filterByDay?from=${START_DATE}&until=${START_DATE}`, (response) => {
+                $.get(`https://connect.garmin.com/modern/proxy/userprofile-service/userprofile/personal-information/weightWithOutbound/filterByDay?from=1505520000000&until=1505606400000`, (response) => {
                     startData = {
-                        date: new Date(response[0].date),
-                        weight: response[0].weight / 453.592
+                        date: new Date(response[1].date),
+                        weight: response[1].weight / 453.592
                     };
                 });
             }
