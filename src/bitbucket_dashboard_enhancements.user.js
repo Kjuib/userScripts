@@ -38,6 +38,8 @@
             console.log('buildStatus', buildStatus);
             if (buildStatus === '1 of 1 passed') {
                 row.style = 'background: blue';
+            } else if (buildStatus === '1 of 1 failed') {
+                row.style = 'background: red';
             }
         }
     }
