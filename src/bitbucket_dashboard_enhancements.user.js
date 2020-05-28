@@ -12,35 +12,55 @@
     'use strict';
 
     function fixSections(sections) {
-        const prSection = sections[2];
+        let prSection;
+        for (let s = 0; s < sections.length; s++) {
+            const section = sections[s];
 
-        // always expand PR list
-        const buttonElements = prSection.getElementsByTagName('button');
-        const lastButton = buttonElements[buttonElements.length - 1];
-        if (lastButton.textContent.includes('Show')) {
-            lastButton.click();
+            console.log('section.textContent', section.textContent);
+
+            if (!section.textContent) {
+                // ignore empty elements
+            } else if (section.textContent.startsWith('Recent repo')) {
+                // remove the repository section
+                section.style = 'display: none';
+            } else if (section.textContent.startsWith('Jira Software issues')) {
+                // remove the jira section
+                section.style = 'display: none';
+            } else if (section.textContent.startsWith('Pull requests to review')) {
+                // always expand PR list
+                const buttonElements = section.getElementsByTagName('button');
+                const lastButton = buttonElements[buttonElements.length - 1];
+                if (lastButton.textContent.includes('Show')) {
+                    lastButton.click();
+                }
+
+                prSection = section;
+            } else if (section.textContent.startsWith('Your')) {
+                // highlight ready to merge
+                const prRows = section.getElementsByTagName('tbody')[0].children;
+                for (let i = 0; i < prRows.length; i++) {
+                    const row = prRows[i];
+                    const buildStatus = row.children[3].firstElementChild.firstElementChild.firstElementChild.firstElementChild.firstElementChild.firstElementChild.getAttribute('aria-label');
+                    const approvalStatus = row.children[2].firstElementChild.firstElementChild.firstElementChild.firstElementChild.children.length > 1;
+                    console.log('buildStatus', buildStatus);
+                    if (buildStatus === '1 of 1 passed' && approvalStatus) {
+                        row.style = 'background: blue';
+                    } else if (buildStatus === '1 of 1 failed') {
+                        row.style = 'background: red';
+                    }
+                }
+            } else if (section.textContent.startsWith('Pull requests')) {
+                // ignore
+            } else {
+                // unknown state, throw and retry
+                console.log('text', section.textContent);
+                throw 'unknown state';
+            }
         }
 
-        // move your PRs to the top (by moving others to bottom)
-        prSection.parentElement.append(prSection);
-
-        // remove the repository section
-        sections[0].style = 'display: none';
-
-        // remove the jira section
-        sections[3].style = 'display: none';
-
-        // highlight ready to merge
-        const prRows = sections[2].getElementsByTagName('tbody')[0].children;
-        for (let i = 0; i < prRows.length; i++) {
-            const row = prRows[i];
-            const buildStatus = row.children[3].firstElementChild.firstElementChild.firstElementChild.firstElementChild.firstElementChild.firstElementChild.getAttribute('aria-label');
-            console.log('buildStatus', buildStatus);
-            if (buildStatus === '1 of 1 passed') {
-                row.style = 'background: blue';
-            } else if (buildStatus === '1 of 1 failed') {
-                row.style = 'background: red';
-            }
+        if (prSection) {
+            // move PRs to the bottom, do it last so it doesnt disrupt the flow
+            prSection.parentElement.append(prSection);
         }
     }
 
@@ -60,5 +80,5 @@
         }
     }
 
-    setTimeout(check, 1000);
+    setTimeout(check, 2000);
 })();
