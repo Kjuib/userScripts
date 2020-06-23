@@ -8,7 +8,7 @@
 // @grant        none
 // ==/UserScript==
 
-(function() {
+(function () {
     'use strict';
 
     const questions = [
@@ -36,7 +36,6 @@
             text: ['Impactful Communication - Setting Proper Expectations', 'What happens when you don'],
             answer: 'All of these'
         },
-
         {
             text: ['Impactful Communication - Communication Rules', 'What went wrong here?'],
             answer: 'Darren and leslie didnt establish any communication rules.'
@@ -77,6 +76,58 @@
         {
             text: ['I certify that I have received, read, and fully understand the'],
             answer: 'I agree.'
+        },
+        {
+            text: ['CMS reserves the right to monitor the use of all such files, equipment, and communicati'],
+            answer: 'true'
+        },
+        {
+            text: ['Employees must use extreme caution when opening e-mail attachments received from unknown senders, which may contain viruses, e-mail bombs, or Trojan horse code.'],
+            answer: 'true'
+        },
+        {
+            text: ['Employees may not speak on behalf of the company, unless permission is specifically gr'],
+            answer: 'true'
+        },
+        {
+            text: ['Money Laundering is the criminal practice of f'],
+            answer: 'true'
+        },
+        {
+            text: ['Adequate due diligence on new and existing customers is a key pa'],
+            answer: 'All of the above'
+        },
+        {
+            text: ['CMS is required by law to establish an ongoing employee-training program so as to ensure its staff members are adequately trained in KYC procedures.'],
+            answer: 'true'
+        },
+        {
+            text: ['Unfair, deceptive, or abusive acts and practices ("UDAAP"'],
+            answer: 'All of the Above'
+        },
+        {
+            text: ['The Dodd-Frank Act makes it unlawful for any service provider to engage'],
+            answer: 'true'
+        },
+        {
+            text: ['Consumer complaints received through online or'],
+            answer: 'All of the Above'
+        },
+        {
+            text: ['Risk assessments are designed to identify and assess the overall risks to CMS including s'],
+            answer: 'true'
+        },
+        {
+            text: ['Risks to CMS include:'],
+            answer: 'All of the Above'
+        },
+        {
+            text: ['What are CMS Enhanced Due Diligence categories?'],
+            answer: 'Direct Sales, travel services, vehicle service'
+        },
+        {
+            text: ['Risk assessments are designed to identify and assess the overall risks to CMS including strategic, operational, fraud, credit, compliance, legal and reputation risk.'],
+            answer: 'true'
         }
     ];
 
@@ -128,6 +179,13 @@
         }
     }
 
+    function clickNext() {
+        const nextButton = document.querySelector('iframe').contentWindow.document.querySelector('frame').contentWindow.document.body.querySelector('.page_nav_inner input[value="Next"]');
+        if (nextButton) {
+            nextButton.click();
+        }
+    }
+
     function check() {
         let found = false;
         questions.forEach((item) => {
@@ -137,6 +195,7 @@
             }
 
             closeDumbDialogs()
+            clickNext();
         });
 
         if (!found) {
