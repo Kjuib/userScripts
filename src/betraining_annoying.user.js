@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         betraining.com Enhancements
-// @namespace    https://github.com/Kjuib/userScripts/raw/master/src/bitbucket_dashboard_enhancements.user.js
+// @namespace    https://github.com/Kjuib/userScripts/raw/master/src/betraining_annoying.user.js
 // @version      0.1
 // @description  make training less annoying
 // @author       heber.billings@gmail.com
