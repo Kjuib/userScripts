@@ -83,7 +83,294 @@
             text: ['Impactful Communication - Keys to Successful Emails', 'When is email not the ideal'],
             answer: 'If there will be a lot of back and forth communication'
         },
+        // Impactful Communication - Graduated Learning
+        {
+            text: ['Impactful Communication - Graduated Learning', 'What can happen when you try'],
+            answer: 'You dont retain it all, and you have to re-train later'
+        },
+        {
+            text: ['Impactful Communication - Graduated Learning', 'If you frequently find yourself'],
+            answer: 'You are providing too much content all at once'
+        },
+        {
+            text: ['Impactful Communication - Graduated Learning', 'implement graduated learning'],
+            answer: 'All of these'
+        },
+        {
+            text: ['Impactful Communication - Graduated Learning', 'How do you keep yourself on track'],
+            answer: 'Give each step of the process an estimated time frame'
+        },
+        // Impactful Communication - Effective Listening
+        {
+            text: ['Impactful Communication - Effective Listening', 'What is another good way'],
+            answer: 'Maintain eye contact'
+        },
+        {
+            text: ['Impactful Communication - Effective Listening', 'Is this person engaged'],
+            answer: 'No'
+        },
+        {
+            text: ['Impactful Communication - Effective Listening', 'How can Effective Listening'],
+            answer: 'All of these'
+        },
+        {
+            text: ['Impactful Communication - Effective Listening', 'How do you ensure effective'],
+            answer: 'Validate what the other person is saying'
+        },
+        {
+            text: ['Impactful Communication - Effective Listening', 'What is the key to'],
+            answer: 'Understanding what the other person is saying'
+        },
+        {
+            text: ['Impactful Communication - Effective Listening', 'Which of the following are steps'],
+            answer: 'All of these'
+        },
+        // Impactful Communication - Being Assertive
+        {
+            text: ['Impactful Communication - Being Assertive', 'Are you typically more'],
+            answer: 'ANY'
+        },
+        {
+            text: ['Impactful Communication - Being Assertive', 'What is the goal of being'],
+            answer: 'To develop mutual understanding of needs'
+        },
+        {
+            text: ['Impactful Communication - Being Assertive', 'If you are typically a passive person'],
+            answer: 'Share your own needs more frequently'
+        },
+        {
+            text: ['Impactful Communication - Being Assertive', 'What is the key to being assertive'],
+            answer: 'Focus on the win-win...'
+        },
+        {
+            text: ['Impactful Communication - Being Assertive', 'If you are typically a more aggressive'],
+            answer: 'Focus more on understanding...'
+        },
+        // Impactful Communication - Healthy Conflict
+        {
+            text: ['Impactful Communication - Healthy Conflict', 'How could this interaction'],
+            answer: 'He should have minimized his assumptions going in'
+        },
+        {
+            text: ['Impactful Communication - Healthy Conflict', 'What worked well in this approach'],
+            answer: 'All of these'
+        },
+        {
+            text: ['Impactful Communication - Healthy Conflict', 'Why is conflict actually'],
+            answer: 'All of these'
+        },
+        {
+            text: ['Impactful Communication - Healthy Conflict', 'What is the first step'],
+            answer: 'Setup a time to engage...'
+        },
+        {
+            text: ['Impactful Communication - Healthy Conflict', 'What is the key to getting through'],
+            answer: 'Listen to the other persons side and seek to understand...'
+        },
+        // PCI-101-CS-01: PCI Essentials for Account Data Handlers and Supervisors
+        {
+            text: ['Which of the following does NOT have to be protected per the PCI'],
+            answer: 'The credit card type'
+        },
+        {
+            text: ['Which of the following is an ACCEPTABLE best practice'],
+            answer: 'Using an encrypted web-based point of sale terminal'
+        },
+        {
+            text: ['Who is responsible for reporting possible violation'],
+            answer: 'Everyone'
+        },
+        {
+            text: ['Which of the following is NOT a common way in which a criminal'],
+            answer: 'Randomly creating primary account numbers...'
+        },
+        {
+            text: ['Which of the following statements is TRUE', 'PCI DSS requirements are derived from laws.'],
+            answer: 'PCI DSS requirements are contractual obligations'
+        },
+        // P-101-PB-01: Privacy and Data Protection
+        {
+            text: ['What do you think the possible consequences are for failing to safeguard private data?'],
+            answer: 'All of the above'
+        },
+        {
+            text: ['Who do you think would be negatively affected if you were to accidentally release private data?'],
+            answer: 'All of the above'
+        },
+        {
+            text: ['What do you think the possible consequences are for failing to safeguard private data?'],
+            answer: 'All of the above'
+        },
+        {
+            text: ['Who do you think is responsible for protecting private data?'],
+            answer: 'Everyone'
+        },
+        {
+            text: ['Public', 'A person’s contact information (name and phone number) displayed on a company’s website.'],
+            answer: 'Public'
+        },
+        {
+            text: ['Public', 'A bank statement that can be traced back to an individual.'],
+            answer: 'Nonpublic'
+        },
+        {
+            text: ['Public', 'The product plans for an unreleased product.'],
+            answer: 'Nonpublic'
+        },
+        {
+            text: ['Public', 'A press release.'],
+            answer: 'Public'
+        },
+        {
+            text: ['Public', 'A list of dates of birth, with no other information.'],
+            answer: 'Public'
+        },
+        {
+            text: ['Public', 'A database of combined public records that can be used to identify an individual.'],
+            answer: 'Nonpublic'
+        },
+        {
+            text: ['Public', 'Health records that can be traced back to an individual.'],
+            answer: 'Nonpublic'
+        },
+        {
+            text: ['Public', 'Public information collected from a transaction with an individual, such as on an application form.'],
+            answer: 'Nonpublic'
+        },
+        {
+            text: ['Before we go any further, let´s make sure you can tell what is and is not private data.', 'Which of the following do you think is NOT private data?'],
+            answer: 'A list of your friends names and addresses kept in your computer'
+        },
+        {
+            text: ['Do you think anything special needs to be done in terms of privacy?'],
+            answer: 'Yes...'
+        },
+        {
+            text: ['Good Idea', 'A customer whose private data we hold points out that her name and date of birth are incorrect.'],
+            answer: 'Bad Idea'
+        },
+        {
+            text: ['Organizations have a responsibility to use physical and technical safeguards to protect the private data they hold.'],
+            answer: 'True'
+        },
+        {
+            text: ['Good Idea', 'A customer feels his private data is being compromised. You tell him you will help resolve the problem and let him know how to register a complaint.'],
+            answer: 'Good Idea'
+        },
+        {
+            text: ['It is ok to share private data with a third party if we stand to gain from it even though customers have opted out of information sharing.'],
+            answer: 'False'
+        },
+        {
+            text: ['A privacy notice is an optional guideline that we should strive to follow.'],
+            answer: 'False'
+        },
+        {
+            text: ['Use tiny print when creating a privacy notice and place it somewhere difficult for the customer to find.'],
+            answer: 'Bad Idea'
+        },
+        {
+            text: ['Use tiny print when creating a privacy notice and place it somewhere difficult for the customer to find.'],
+            answer: 'Bad Idea'
+        },
+        {
+            text: ['Which of the following do you think gives a customer a true "opt-in" choice?'],
+            answer: '[Unchecked option]'
+        },
+        {
+            text: ['Since accessing an email account requires a username and password, email is a secure way to send private data electronically.'],
+            answer: 'False'
+        },
+        {
+            text: ['Someone calls you and asks to change the password for their account.'],
+            answer: 'Bad Idea'
+        },
+        {
+            text: ['You receive a verified request to update a customer', 'inaccurate information and carry it out immediately.'],
+            answer: 'Good Idea'
+        },
+        {
+            text: ['secure any physical documents or media that contain private or nonpublic data before you leave your desk.'],
+            answer: 'True'
+        },
+        {
+            text: ['You minimize your applications, cover up documents, and work on something else until the visitor leaves.'],
+            answer: 'Good Idea'
+        },
+        {
+            text: ['It is ok to view the private data of friends and family so long as you do not tell them you accessed it at work.'],
+            answer: 'False'
+        },
+        {
+            text: ['You overhear a colleague discussing private data in public at a restaurant and listen in to the interesting details.'],
+            answer: 'Bad Idea'
+        },
+        {
+            text: ['to help ensure it is only used by those with a need to know and to make it easy to know what data or documents should be secured.'],
+            answer: 'True'
+        },
+        {
+            text: ['A confidentiality agreement must be in place with customers before we can share their private data with them.'],
+            answer: 'False'
+        },
+        {
+            text: ['A man calls in asking for information about his wife', 'You verify that they have the same last name and then give him the information.'],
+            answer: 'Bad Idea'
+        },
+        {
+            text: ['A customer calls in asking for her account information.', 'You first verify her identity then give her the information.'],
+            answer: 'Good Idea'
+        },
+        {
+            text: ['A customer you are assisting sees another customer walk out the door and asks if that was her friend Julia Smith.'],
+            answer: 'True'
+        },
+        {
+            text: ['Different types of data must be kept for different periods of time.', 'After that time has elapsed, the data should be destroyed.'],
+            answer: 'DVDs and other media with private data should be disposed of by throwing them in the garbage'
+        },
+        {
+            text: ['True or False? All private data we collect must be kept permanently.'],
+            answer: 'False'
+        },
+        {
+            text: ['Your medical records, held by your doctor.', 'Your credit card purchasing history, held by your bank.'],
+            answer: 'Your medical records and credit card purchasing history without a way to trace them back to you.'
+        },
+        {
+            text: ['Those with a need to know, such as those who must use the private data to complete their duties.', 'Those who are friends or family of the subject of the private data.'],
+            answer: 'Both A and C are correct.'
+        },
+        {
+            text: ['True or False? There is nothing you can do to help protect private data.'],
+            answer: 'False'
+        },
+        {
+            text: ['When private data is collected, a privacy notice should be given.', 'A privacy notice is a set of recommendations about handling private data, but not a binding contract.'],
+            answer: 'A privacy notice is a set of recommendations about handling private data, but not a binding contract.'
+        },
+        {
+            text: ['Earning and keeping the trust of customers, employees, and the generic public.', 'Complying with laws and regulations.'],
+            answer: 'Preventing the release of public data.'
+        },
+        {
+            text: ['True or False? In the U.S., only government, health, and financial records are protected by privacy laws.'],
+            answer: 'False'
+        },
+        {
+            text: ['Which of the following must be true for data to be considered private in the U.S.?'],
+            answer: 'Both A and B are correct'
+        },
+        {
+            text: ['Paper documents with private data should be stored in a locked drawer or filling cabinet.', 'Email is a secure way to transmit private data.'],
+            answer: 'Paper documents with private data should be stored in a locked drawer or filling cabinet.'
+        },
+        {
+            text: ['When a customer requests his or her private data, you must first verify their identity before disclosing it.', 'private data to his/her immediate family and close friends.'],
+            answer: 'It is ok to disclose a customers private data to his/her immediate family and close friends.'
+        },
 
+        
         {
             text: ['Paper files with sensitive data are only to be kept for the immediate business need. If files are needed'],
             answer: 'True'
