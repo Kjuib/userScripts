@@ -270,7 +270,7 @@
             text: ['A(n) _______ is the requirement of a creditor, as a condition of granting credit, '],
             answer: 'Assignment of wages'
         },
-        // FSC - AML Awareness and Protection
+        // FSC - BSA Awareness and Protection
         {
             text: ['The primary difference between money laundering and terrorist financing is that the intent of money laundering is to hide the ________ of funds, whereas terrorist financing seeks to hide the _______ of the funds.'],
             answer: 'Source / Purpose'
