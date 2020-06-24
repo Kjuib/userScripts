@@ -199,7 +199,7 @@
         },
         {
             text: ['overarching policies are administered by all of the following EXCEPT'],
-            answer: 'Sectreterial pool'
+            answer: 'Sectretarial pool'
         },
         {
             text: ['Financial services companies should ensure UDAAP'],
@@ -244,13 +244,126 @@
         {
             text: ['A(n) _______ is the requirement of a creditor, as a condition of granting credit, '],
             answer: 'Assignment of wages'
+        },
+        {
+            text: ['The primary difference between money laundering and terrorist financing is that the intent of money laundering is to hide the ________ of funds, whereas terrorist financing seeks to hide the _______ of the funds.'],
+            answer: 'Source / Purpose'
+        },
+
+        {
+            text: ['he primary purpose of the Bank Secrecy Act (BSA) is to assist the United States government in the detection and prevention of money laundering, terrorist financing, and other illegal financial activity'],
+            answer: 'true'
+        },
+        {
+            text: ['Criminals disguising the source of the money by performing a series of intricate transactions through the world'],
+            answer: 'Money Laundering'
+        },
+        {
+            text: ['Select all that apply. The three independent steps in the money laundering process include'],
+            answer: 'Integration, Placement, Layering'
+        },
+        {
+            text: ['When a customer purchases money orders or traveler'],
+            answer: 'Between 5000 and 9999'
+        },
+        {
+            text: ['s Customer Identification Program (CIP) applies to all customers.'],
+            answer: 'false'
+        },
+        {
+            text: ['intent is to hide the ________ of funds, whereas terrorist financing seeks to hide the _______ of the funds'],
+            answer: 'Source / Purpose'
+        },
+        {
+            text: ['John, a Money Express customer, uses cash to purchase $6,000 in traveler'],
+            answer: 'Yes'
+        },
+        {
+            text: ['________ is a bureau of the U.S. Department of the Treasury with the mission to safeguard the financial system from illicit use, combat money laundering'],
+            answer: 'FinCEN'
+        },
+        {
+            text: ['Select all that apply. The USA PATRIOT Act was enacted to'],
+            answer: '3 - To place more scrutiny..., Establish information sharing..., Criminalize the financials of...'
+        },
+        {
+            text: ['The penalties for violating the Bank Secrecy Act can be civil, criminal, or intangible'],
+            answer: 'true'
+        },
+        {
+            text: ['All MSBs must register with FinCEN'],
+            answer: 'false'
+        },
+        {
+            text: ['Information that must be reported on a SAR includes all the following EXCEPT'],
+            answer: 'Apparel worn...'
+        },
+        {
+            text: ['A CTR must be completed for any individual or multiple cash transaction totaling at least'],
+            answer: '10,000.01'
+        },
+        {
+            text: ['A record must be kept for the exchange of currency in the amount of  ___'],
+            answer: '1,000'
+        },
+        {
+            text: ['A _________ must be completed for any transaction of at least $2,000 aggregate that the institution knows or suspects might be suspicious'],
+            answer: 'Suspicious activity report'
+        },
+        {
+            text: ['All of the following are among the five pillars of an AML program EXCEPT'],
+            answer: 'Institution registration with FINCEN'
+        },
+        {
+            text: ['The BSA requires MSBs to have a formalized Customer Identification Program'],
+            answer: 'false'
+        },
+        {
+            text: ['The USA PATRIOT Act generally prohibits doing business with Politically Exposed Persons (PEPs)'],
+            answer: 'false'
+        },
+        {
+            text: ['Section 326 of the USA PATRIOT Act added additional provisions to the overall Bank Secrecy Act (BSA) requirements'],
+            answer: 'true'
+        },
+        {
+            text: ['The Know Your Customer principals'],
+            answer: 'Types of acceptable identification'
+        },
+        {
+            text: ['Telling a customer you need to file a SAR is appropriate because it is the law'],
+            answer: 'false'
+        },
+        {
+            text: ['Select all that apply. What information should be included in a SAR'],
+            answer: 'ALL'
+        },
+        {
+            text: ['One of the primary purposes of the Bank Secrecy Act is to help deter money laundering by creating a "paper trail" and an "information trail."'],
+            answer: 'true'
+        },
+        {
+            text: ['Certain information must travel to the next financial institution processing the transfer.'],
+            answer: 'true'
+        },
+
+        {
+            text: ['Select all that apply. The Bank Secrecy Act is the law that requires financial institutions, casinos, and certain other businesses to'],
+            answer: ''
+        },
+        {
+            text: ['s core activities involve "following the money," which includes all of the following EXCEPT'],
+            answer: 'Charging Import and Duty Fees'
+        },
+        {
+            text: ['s checks for cash for which amounts must an institution obtain and retain certain information about the customer'],
+            answer: 'between 5000 and 9999'
         }
         // {
         //     text: [''],
         //     answer: ''
         // },
     ];
-
 
     function postMessage(text) {
         let box = document.body.querySelector('.betrainingIsDumb');
