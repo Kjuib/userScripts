@@ -128,8 +128,129 @@
         {
             text: ['Risk assessments are designed to identify and assess the overall risks to CMS including strategic, operational, fraud, credit, compliance, legal and reputation risk.'],
             answer: 'true'
+        },
+        {
+            text: ['Financial services company must monitor the activities of employees to ensure they do not engage in unfair, deceptive, or abusive acts or practices with respect to consumer interact'],
+            answer: 'false'
+        },
+        {
+            text: ['A representation may be __________ if the majority of consumers in the target class do not share the consumer'],
+            answer: 'Deceptive'
+        },
+        {
+            text: ['Under Regulation Z and the Truth in Lending Act, creditors must'],
+            answer: 'Clearly'
+        },
+        {
+            text: ['The Federal Trade Commission (FTC) has the authority to protect consumers'],
+            answer: 'true'
+        },
+        {
+            text: ['Who has rulemaking authority for UDAAP?'],
+            answer: 'CFPB'
+        },
+        {
+            text: ['All of the following are required to support the standard for unfairness under UDAAP, EXCEPT'],
+            answer: 'The injury was not caused on purpose'
+        },
+        {
+            text: ['Substantial injury can include monetary harm.'],
+            answer: 'true'
+        },
+        {
+            text: ['Emotional impact may not amount to or contribute to substantial injury'],
+            answer: 'false'
+        },
+        {
+            text: ['All of the below must be present to show that an act or practice is deceptive under UDAAP, EXCEPT:'],
+            answer: 'The consumer\'s interpretation of the representation, omission, act, or practice is accepted regardless of the circumstances'
+        },
+        {
+            text: ['A representation may be deceptive even if the majority of consumers in the target class'],
+            answer: 'true'
+        },
+        {
+            text: ['The legal standards for abusive, unfair, and deceptive acts'],
+            answer: 'false'
+        },
+        {
+            text: ['What is a red flag to conduct a detailed review of a practice?'],
+            answer: 'Presense of Complaints'
+        },
+        {
+            text: ['A single substantive complaint does not warrant further review or raise serious concerns.'],
+            answer: 'false'
+        },
+        {
+            text: ['When reviewing complaints for your financial services company'],
+            answer: 'Regulators'
+        },
+        {
+            text: ['s UDAAP program provides guidelines and rules'],
+            answer: 'Complaint management'
+        },
+        {
+            text: ['disclose the costs and terms of credit'],
+            answer: 'true'
+        },
+        {
+            text: ['An unfair, deceptive, or abusive act or practice never violates other federal or state laws'],
+            answer: 'false'
+        },
+        {
+            text: ['overarching policies are administered by all of the following EXCEPT'],
+            answer: 'Sectreterial pool'
+        },
+        {
+            text: ['Financial services companies should ensure UDAAP'],
+            answer: 'Annual report to investors'
+        },
+        {
+            text: ['Types of systematic measures acting as internal controls instituted by a financial services'],
+            answer: 'true'
+        },
+        {
+            text: ['Procedures and scripts used by internal or external debt collectors is not'],
+            answer: 'false'
+        },
+        {
+            text: ['Social media communications do not have to be reviewed'],
+            answer: 'false'
+        },
+        {
+            text: ['Underwriting of credit files should accurately represent the amount of usable credit that the consumer will receive, '],
+            answer: 'true'
+        },
+        {
+            text: ['but the company does not need to monitor the activities of third-party'],
+            answer: 'false'
+        },
+        {
+            text: ['All of the following fall represent a higher-risk for UDAAP compliance EXCEPT'],
+            answer: 'Loans secured by property'
+        },
+        {
+            text: ['Financial institutions do not need to identify inherent risks related to consumer harm'],
+            answer: 'false'
+        },
+        {
+            text: ['A(n) _______ is a waiver of the consumer'],
+            answer: 'Confession of judgement'
+        },
+        {
+            text: ['A cosigner shares the responsibility for the debt with the borrower. If the borrower does not pay the debt, the cosigner is responsible for repaying the remaining balance of the debt'],
+            answer: 'true'
+        },
+        {
+            text: ['A(n) _______ is the requirement of a creditor, as a condition of granting credit, '],
+            answer: 'Assignment of wages'
         }
+        // {
+        //     text: [''],
+        //     answer: ''
+        // },
     ];
+
 
     function postMessage(text) {
         let box = document.body.querySelector('.betrainingIsDumb');
