@@ -12,6 +12,7 @@
     'use strict';
 
     const questions = [
+        // Impactful Communication - Setting Proper Expectations
         {
             text: ['Impactful Communication - Setting Proper Expectations', 'How could this issue', 'have been avoided?'],
             answer: 'If expectations were communicated better'
@@ -36,6 +37,7 @@
             text: ['Impactful Communication - Setting Proper Expectations', 'What happens when you don'],
             answer: 'All of these'
         },
+        // Impactful Communication - Communication Rules
         {
             text: ['Impactful Communication - Communication Rules', 'What went wrong here?'],
             answer: 'Darren and leslie didnt establish any communication rules.'
@@ -60,6 +62,27 @@
             text: ['Impactful Communication - Communication Rules', 'When should communication rules be established'],
             answer: 'Right away'
         },
+        // Impactful Communication - Keys to Successful Emails
+        {
+            text: ['Impactful Communication - Keys to Successful Emails', 'Ideally, what is the purpose'],
+            answer: 'Allude to the desire and outcome of the email'
+        },
+        {
+            text: ['Impactful Communication - Keys to Successful Emails', 'Where should you put a Call'],
+            answer: 'All of these'
+        },
+        {
+            text: ['Impactful Communication - Keys to Successful Emails', 'Why might you not be getting'],
+            answer: 'All of these'
+        },
+        {
+            text: ['Impactful Communication - Keys to Successful Emails', 'Why might people not be'],
+            answer: 'Your information is not structured in a clear, concise way'
+        },
+        {
+            text: ['Impactful Communication - Keys to Successful Emails', 'When is email not the ideal'],
+            answer: 'If there will be a lot of back and forth communication'
+        },
 
         {
             text: ['Paper files with sensitive data are only to be kept for the immediate business need. If files are needed'],
@@ -77,18 +100,20 @@
             text: ['I certify that I have received, read, and fully understand the'],
             answer: 'I agree.'
         },
+
         {
-            text: ['CMS reserves the right to monitor the use of all such files, equipment, and communicati'],
+            text: ['CMS reserves the right to monitor the use of all'],
             answer: 'true'
         },
         {
-            text: ['Employees must use extreme caution when opening e-mail attachments received from unknown senders, which may contain viruses, e-mail bombs, or Trojan horse code.'],
+            text: ['Employees must use extreme caution when opening'],
             answer: 'true'
         },
         {
-            text: ['Employees may not speak on behalf of the company, unless permission is specifically gr'],
+            text: ['Employees may not speak on behalf of the'],
             answer: 'true'
         },
+
         {
             text: ['Money Laundering is the criminal practice of f'],
             answer: 'true'
@@ -407,16 +432,24 @@
     }
 
     function closeDumbDialogs() {
-        const closeButton1 = document.querySelector('iframe').contentWindow.document.body.querySelector('[id*="Dialog"]:not([style*="none"]) [id*="DialogCloseButton"]');
-        if (closeButton1) {
-            closeButton1.click();
+        try {
+            const closeButton1 = document.querySelector('iframe').contentWindow.document.body.querySelector('[id*="Dialog"]:not([style*="none"]) [id*="DialogCloseButton"]');
+            if (closeButton1) {
+                closeButton1.click();
+            }
+        } catch (e) {
+            // ignore
         }
     }
 
     function clickNext() {
-        const nextButton = document.querySelector('iframe').contentWindow.document.querySelector('frame').contentWindow.document.body.querySelector('.page_nav_inner input[value="Next"]');
-        if (nextButton) {
-            nextButton.click();
+        try {
+            const nextButton = document.querySelector('iframe').contentWindow.document.querySelector('frame').contentWindow.document.body.querySelector('.page_nav_inner input[value="Next"]');
+            if (nextButton) {
+                nextButton.click();
+            }
+        } catch (e) {
+            // ignore
         }
     }
 
