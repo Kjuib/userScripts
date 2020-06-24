@@ -557,6 +557,7 @@
             text: ['A(n) _______ is the requirement of a creditor, as a condition of granting credit, '],
             answer: 'Assignment of wages'
         },
+        // FSC - BSA Awareness and Protection
         {
             text: ['The primary difference between money laundering and terrorist financing is that the intent of money laundering is to hide the ________ of funds, whereas terrorist financing seeks to hide the _______ of the funds.'],
             answer: 'Source / Purpose'
@@ -658,7 +659,6 @@
             text: ['Certain information must travel to the next financial institution processing the transfer.'],
             answer: 'true'
         },
-
         {
             text: ['Select all that apply. The Bank Secrecy Act is the law that requires financial institutions, casinos, and certain other businesses to'],
             answer: ''
@@ -670,7 +670,94 @@
         {
             text: ['s checks for cash for which amounts must an institution obtain and retain certain information about the customer'],
             answer: 'between 5000 and 9999'
+        },
+        // FSC - AML Awareness and Protection
+        {
+            text: ['Placement, layering, and integration are steps in this criminal process of exploiting financial services businesses.'],
+            answer: 'Money Laundering'
+        },
+        {
+            text: ['Money laundering is the process of making ___________ appear _________'],
+            answer: 'Illegal gained proceeds / legal'
+        },
+        {
+            text: ['Terrorist financing involves the solicitation, collection, or provision of funds with the intention that they be used to support terrorist acts or organizations.'],
+            answer: 'true'
+        },
+        {
+            text: ['The ____________ was designed to create an investigative "paper trail" for large currency transactions by establishing reporting standards and requirements (e.g. the CTR requirement)'],
+            answer: 'Bank Secrecy Act'
+        },
+        {
+            text: ['The Money Laundering Control Act made money laundering a federal crime. All of the following offenses were created with this law EXCEPT'],
+            answer: 'Sending laundered money across international borders'
+        },
+        {
+            text: ['The Anti-Drug Abuse Act requires strict identification and recording of cash purchases of certain monetary instruments, including money orders and traveler'],
+            answer: 'true'
+        },
+        {
+            text: ['The ___________ strengthened penalties for financial institutions found guilty of money laundering'],
+            answer: 'Anunzio-Wylie anti money...'
+        },
+        {
+            text: ['As required by the USA PATRIOT Act, each financial institution'],
+            answer: 'Policies, procedures and controls; designation of a compliance officer; training; and an independent audit function'
+        },
+        {
+            text: ['The intent of an AML program is to identify products, services, geographic locations, and points of customer interaction that are most susceptible to money laundering and terrorist financing activities'],
+            answer: 'false'
+        },
+        {
+            text: ['The BSA requires your AML program to have risk-based internal controls (policies and procedures)'],
+            answer: 'true'
+        },
+        {
+            text: ['The BSA requires that financial services businesses, including MSBs, have a written _______________ that addresses the four "pillars."'],
+            answer: 'AML Program'
+        },
+        {
+            text: ['Internal controls is one of the four "pillars" of an AML program'],
+            answer: 'true'
+        },
+        {
+            text: ['Internal money laundering controls should provide for all of the following EXCEPT'],
+            answer: 'Business continuity plans for data security'
+        },
+        {
+            text: ['A __________ approach combats money laundering and terrorist financing and allows your company to direct resources to where the risk is the greatest.'],
+            answer: 'Risk-based'
+        },
+        {
+            text: ['FinCEN further discourages financial services businesses to adopt policies and procedures that incorporate the Basel Committee Statement of Principles on Money Laundering'],
+            answer: 'false'
+        },
+        {
+            text: ['Program continuity despite changes in management or employee composition or structure would be considered a topic to include in your AML policies and procedures.'],
+            answer: 'true'
+        },
+        {
+            text: ['MSBs must file SARs with FinCEN when a transaction is both suspicious and _________ or more'],
+            answer: '2,000'
+        },
+        {
+            text: ['Financial services businesses, including MSBs, should file SARs with FinCEN for any suspicious transaction that deals with known or suspected theft or abuse of a person'],
+            answer: 'true'
+        },
+        {
+            text: ['A Currency Transaction Report (CTR) must be completed for any individual or multiple cash transaction totaling at least'],
+            answer: '10,000'
+        },
+        {
+            text: ['A record must be kept for the exchange of currency in the amount of _____ in cash'],
+            answer: '1,000'
+        },
+        {
+            text: ['Certain MSBs are required to register with'],
+            answer: 'FinCen'
         }
+
+
         // {
         //     text: [''],
         //     answer: ''
