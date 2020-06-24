@@ -727,10 +727,14 @@
         },
         {
             text: ['Select all that apply. The Bank Secrecy Act is the law that requires financial institutions, casinos, and certain other businesses to'],
-            answer: ''
+            answer: '- Monitor customer behavior<br />- File reports on transactions...<br />- Maintain records of certain cash transactions'
         },
         {
             text: ['s core activities involve "following the money," which includes all of the following EXCEPT'],
+            answer: 'Charging Import and Duty Fees'
+        },
+        {
+            text: ['core activities involve', 'Receiving and maintaining financial transactions data', 'All of the above'],
             answer: 'Charging Import and Duty Fees'
         },
         {
