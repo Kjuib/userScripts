@@ -434,9 +434,485 @@
             text: ['All hard copy records should be crumpled up and thrown in the garbage.', 'Electronic copies of data should be placed in a folder on your computer named'],
             answer: 'Data stored on media that cannot be erased...'
         },
-
-
-
+        // 2020 Data Security and Retention Policy 1.2
+        {
+            text: ['Departmental policies and procedures, including manuals, manual codes,'],
+            answer: '7 years'
+        },
+        // 2020 Information Security Policy 5.2.1
+        {
+            text: ['access privileges shall be authorized according to business need. User access to computer resources shall be provided only for legitimate business needs.'],
+            answer: 'True'
+        },
+        {
+            text: ['Cardholder data can be stored electronically, but must be done securely, for example by encryption.'],
+            answer: 'True'
+        },
+        {
+            text: ['Regardless of location, an employee of CMS must accompany visitors and non-employee guests at all times.'],
+            answer: 'True'
+        },
+        // DI - Workplace Inclusion
+        {
+            text: ['The best way to become aware of differences is to know your neighbors.'],
+            answer: 'False'
+        },
+        {
+            text: ['Diversity and affirmative action mean the same thing.'],
+            answer: 'False'
+        },
+        {
+            text: ['Businesses that value diversity will likely experience all of the following'],
+            answer: 'Increased employee turnover'
+        },
+        {
+            text: ['Issues of diversity directly affect', 'Managing workplace talent'],
+            answer: 'All of the above'
+        },
+        {
+            text: ['When people feel valued', 'Believe their individual differences have been taken into account'],
+            answer: 'All of the above'
+        },
+        {
+            text: ['To build an organization that recognizes, values, and leverages human differences for a competitive advantage, employees must do'],
+            answer: 'Ignore the differences in peoples assumptions'
+        },
+        // DI - Sexual Harassment Refresher
+        {
+            text: ['Perpetrators of sexual harassment can be', 'Coworkers', 'Neighbors'],
+            answer: '- Coworkers<br />- Supervisors<br />- Clients'
+        },
+        {
+            text: ['Workplace violence may include', 'Language that demeans another'],
+            answer: '- Language that demeans another<br />- Stealing from a coworker<br />- Intentionally embarrassing a customer or coworker'
+        },
+        {
+            text: ['The OCC investigates claims of sexual harassment.'],
+            answer: 'False'
+        },
+        {
+            text: ['All of the following are among factors that are used to determine whether an environment is hostile'],
+            answer: 'The sex of the victim'
+        },
+        {
+            text: ['Quid pro quo harassment can only occur between a superior and a subordinate'],
+            answer: 'True'
+        },
+        {
+            text: ['Whose responsibility is it to keep the workplace respectful', 'The bully'],
+            answer: 'Everybody'
+        },
+        {
+            text: ['Employers are responsible for', 'Having a sexual harassment policy'],
+            answer: '- Having a sexual harassment policy<br />- Investigating sexual harassment claims quickly<br />- Asking the harassers to change their behavior<br />- Making complaint procedures public<br />- Treating all complaints seriously'
+        },
+        {
+            text: ['When it comes to sexual harassment or bullying, managers are responsible for', 'Encouraging victims to speak up'],
+            answer: '- Encouraging victims to speak up<br />- Reporting sexual harassment if they notice it<br />- Always acting appropriately'
+        },
+        {
+            text: ['A company is not responsible for sexual harassment claims if it has a policy against it and provides staff training'],
+            answer: 'False'
+        },
+        {
+            text: ['If you feel you have been sexually harassed, you should attempt to resolve the issue on your own, involving human resources only as a last resort.'],
+            answer: 'False'
+        },
+        // DI - Harassment
+        {
+            text: ['Reporting harassment makes your employer responsible for stopping the behavior.'],
+            answer: 'True'
+        },
+        {
+            text: ['Do you think this is an example of harassment?'],
+            answer: 'No'
+        },
+        {
+            text: ['A company is the only party that can be sued for harassment in the workplace.'],
+            answer: 'False'
+        },
+        {
+            text: ['A joke is sent to others via email that is of a sexual or violent nature can be harassing.'],
+            answer: 'True'
+        },
+        {
+            text: ['Sexual orientation is a federally protected class.'],
+            answer: 'False'
+        },
+        {
+            text: ['Calling someone names repeatedly after he or she asks you to stop can be harassment.'],
+            answer: 'True'
+        },
+        {
+            text: ['Sexual harassment can only occur between two people of the opposite sex.'],
+            answer: 'False'
+        },
+        {
+            text: ['A customer or client can perpetrate harassment.'],
+            answer: 'True'
+        },
+        {
+            text: ['Only females can claim sexual harassment.'],
+            answer: 'False'
+        },
+        {
+            text: ['It is important whether the "harasser" intended to hurt the "victim."'],
+            answer: 'False'
+        },
+        {
+            text: ['Profanity in the work place is just a part of life and should be expected.'],
+            answer: 'False'
+        },
+        {
+            text: ['The federal government protects employees who are harassed because of their'],
+            answer: 'Gender'
+        },
+        {
+            text: ['Most people belong to most of the various protected classes.'],
+            answer: 'True'
+        },
+        {
+            text: ['All of the following are key elements of harassment EXCEPT that the conduct must'],
+            answer: 'Occur on work premises '
+        },
+        {
+            text: ['Conduct may be considered sexual harassment even if the level of offense felt by the victim may seem'],
+            answer: 'True'
+        },
+        {
+            text: ['Harassment can occur in which of the following forms?', 'Verbal'],
+            answer: 'All of the above'
+        },
+        {
+            text: ['Two coworkers making religious jokes could be overheard by a third person who may become offended'],
+            answer: 'True'
+        },
+        {
+            text: ['Harassment can be committed by a', 'Any of the above'],
+            answer: 'Any of the above'
+        },
+        {
+            text: ['Workplace policies are based upon the', 'Least senior'],
+            answer: 'Most sensitive'
+        },
+        {
+            text: ['Victims of harassment can be', 'Any of the above'],
+            answer: 'Any of the above'
+        },
+        {
+            text: ['Harassment can occur between two people of the same sex'],
+            answer: 'True'
+        },
+        {
+            text: ['An employer is legally responsible for harassment, even if conduct was unintentional'],
+            answer: 'True'
+        },
+        {
+            text: ['Reporting harassment makes your employer responsible for stopping the behavior'],
+            answer: 'True'
+        },
+        {
+            text: ['Workplace behavior should be guided by the same behavior an employee exhibits during social interactions'],
+            answer: 'False'
+        },
+        {
+            text: ['Who can be held personally liable for their actions in a harassment situation'],
+            answer: 'All of the above'
+        },
+        // DI - Defamation
+        {
+            text: ['How many elements must be present to qualify an act as defamation'],
+            answer: 'Three'
+        },
+        {
+            text: ['All of the following are elements of defamation EXCEPT that the statement must be'],
+            answer: 'Made intentionally'
+        },
+        {
+            text: ['If a statement is true, no matter how harmful, it is not defamation'],
+            answer: 'True'
+        },
+        {
+            text: ['Defamatory verbal statements and gestures are called'],
+            answer: 'Slander'
+        },
+        {
+            text: ['Two employees are having lunch and talking about how a colleague, Harry, plagiarized large sections'],
+            answer: 'Only if the statement is false'
+        },
+        {
+            text: ['An employee who is known to be homosexual has been absent from work frequently'],
+            answer: 'Yes'
+        },
+        {
+            text: ['If someone gets the reputation of being a whistle-blower or someone who files discrimination complaints'],
+            answer: 'Get a written letter of rec...'
+        },
+        {
+            text: ['Employers can knowingly make false statements about employees or ex-employees and be protected under qualified privilege'],
+            answer: 'False'
+        },
+        // DI - Language
+        {
+            text: ['Silence occurs while you are interacting with a non-native English speaker', 'This could mean that the other'],
+            answer: 'All of the above'
+        },
+        {
+            text: ['has some offensive terms connected with its membership'],
+            answer: 'Protected class'
+        },
+        {
+            text: ['People usually make offensive comments because of all the following EXCEPT that they'],
+            answer: 'Know their words will hurt another'
+        },
+        {
+            text: ['You should know about the cultural variations in language of all your customers'],
+            answer: 'False'
+        },
+        {
+            text: ['Which of the following statements could be discriminatory', 'All sales clerks must wear pantsuits to work'],
+            answer: 'An analyst can succeed...'
+        },
+        {
+            text: ['All of the following statements are inappropriate', 'The handicapped employee is surprisingly competent'],
+            answer: 'Susan Thomas has been named...'
+        },
+        {
+            text: ['The best way to avoid inappropriate or offensive language in the workplace is to speak about others as you would want'],
+            answer: 'True'
+        },
+        {
+            text: ['All of the following are ways to eliminate discriminatory language from the workplace', 'Speaking up about inappropriate language'],
+            answer: 'Ignoring the offensive language '
+        },
+        // General Data Protection Regulation
+        {
+            text: ['The GDPR applies to companies located within the EU, but not to companies and businesses located outside of the EU that offer goods'],
+            answer: 'False'
+        },
+        {
+            text: ['The GDPR requires the contract between controllers and processors to include these stipulations'],
+            answer: 'All of the above'
+        },
+        {
+            text: ['Under the BDPR, EU data subject have the rights to'],
+            answer: 'All of the above'
+        },
+        {
+            text: ['Select all that apply. Under the GDPR, a request for consent must'],
+            answer: '- Be unambiguous<br />- Be easily accessible<br />- Be distinguishable from other documents<br />- Use clear and plain language<br />- Have the purpose for data processing attached'
+        },
+        {
+            text: ['GDPR', 'stands for', 'General Data Protection Regulation'],
+            answer: 'General Data Protection Regulation'
+        },
+        {
+            text: ['The concept of privacy by design means that privacy and data protection should be considered as an addition'],
+            answer: 'False'
+        },
+        {
+            text: ['Records documenting GDPR compliance must be maintained for all processing activities involving personal data.'],
+            answer: 'True'
+        },
+        {
+            text: ['Organizations can be fined up to', 'of the worldwide annual revenue of the prior financial year or'],
+            answer: '4% / €20'
+        },
+        {
+            text: ['Examples of personal data include a subject', 'Medical information'],
+            answer: '- Name<br />- Email address<br />- Medical information<br />- IP address'
+        },
+        {
+            text: ['The GDPR applies even if the actual processing of personal data of EU data subjects does not take place in the EU'],
+            answer: 'True'
+        },
+        {
+            text: ['based financial institution processes data about individuals in the context of selling goods or services to citizens in EU countries', 'it is not required to comply with the GDPR'],
+            answer: 'False'
+        },
+        {
+            text: ['The GDPR applies to the processing of personal data by', 'Comptrollers'],
+            answer: '- Controllers<br />- Processors'
+        },
+        {
+            text: ['A controller or processor not established in the EU will be subject to the GDPR if processing'],
+            answer: '- Personal data of an EU...<br />- Is related to the monitoring of...'
+        },
+        {
+            text: ['The expansion of the territorial scope outside the EU is one of the main objectives of the GDPR'],
+            answer: 'True'
+        },
+        {
+            text: ['Covered financial institutions will have to implement processes to comply with the new GDPR'],
+            answer: '72'
+        },
+        // HH-101 HIPAA HITECH Privacy for Business Associates
+        {
+            text: ['The HITECH Act amended HIPAA with stronger privacy requirements and higher penalties.'],
+            answer: 'Organizations can be fined when an employee...'
+        },
+        {
+            text: ['A Business Associate of a Covered Entity does not need to safeguard Protected Health Information unless it has been contractually agreed upon.'],
+            answer: 'False'
+        },
+        {
+            text: ['An administrator at a hospital sends a file containing information about patient co-pays in the oncology'],
+            answer: 'Yes'
+        },
+        {
+            text: ['You notice that an organization with which we share PHI is failing to protect the privacy or security of PHI'],
+            answer: 'Report the issue to the Privacy Officer.'
+        },
+        {
+            text: ['Lucas, who works in a medical billing company, realizes that owing to a spreadsheet error'],
+            answer: 'Yes'
+        },
+        {
+            text: ['A physical therapist in a nursing home notices that one of her patients is becoming significantly less flexible along the spine despite consistent stretching'],
+            answer: 'No'
+        },
+        {
+            text: ['Since no authorization is required in the previous example, does the physical therapist still need to safeguard the information'],
+            answer: 'Yes'
+        },
+        {
+            text: ['The FDA requires us to report adverse reactions to certain products such as medications. Do you think we need patient authorization to'],
+            answer: 'No'
+        },
+        {
+            text: ['A pharmaceutical company wants to pay a medical practice to send out material about a new drug to those patients who suffer from high blood pressure'],
+            answer: 'Yes'
+        },
+        {
+            text: ['Which of the following people do you think needs to see a patient', 'A doctor providing treatment'],
+            answer: 'Yes'
+        },
+        {
+            text: ['A representative from an outside billing service.'],
+            answer: 'No'
+        },
+        {
+            text: ['The in-house operator who routes calls to patients'],
+            answer: 'No'
+        },
+        {
+            text: ['A coworker is having trouble with email and decides to use a free email service to send electronic files that contain PHI'],
+            answer: 'Yes'
+        },
+        {
+            text: ['A coworker leaves for lunch with documents containing PHI scattered on his desk where others can see them'],
+            answer: 'Yes'
+        },
+        {
+            text: ['If you wish to release an individual', 'PHI in a way not allowed by HIPAA, what do you think you must obtain'],
+            answer: 'A signed Authorization Form.'
+        },
+        {
+            text: ['Lee works for a Business Associate that does medical billing', 'A patient has paid for medical treatment out of pocket and has requested that the information related to that treatment not be shared'],
+            answer: 'Yes'
+        },
+        {
+            text: ['A father demands a copy of the medical record of his sixteen-year-old daughter as provided by HIPAA. Her physician knows that the record reflects a pre-marital pregnancy that her father is unaware'],
+            answer: 'Yes'
+        },
+        {
+            text: ['You work at a health insurance company', 'A customer asks you to call her office rather than her home because she has been threatened by her husband'],
+            answer: 'Yes'
+        },
+        {
+            text: ['You work at a pediatrician', 'mother asks you to send all mailings in closed envelopes rather than on post cards'],
+            answer: 'Yes, no questions asked'
+        },
+        {
+            text: ['Which of the following is true about HIPAA'],
+            answer: 'All of the above'
+        },
+        {
+            text: ['Protected health information (PHI) only refers to written documents inside an individual'],
+            answer: 'False'
+        },
+        {
+            text: ['Where do you think instructions for filing a complaint should be placed'],
+            answer: 'A Privacy Notice'
+        },
+        {
+            text: ['The HITECH Act was enacted to encourage the adoption of Electronic Health Records'],
+            answer: 'True'
+        },
+        {
+            text: ['An e-mail containing PHI that is sent in an encrypted format, but is not stored in an encrypted format is considered "secure" under the HITECH Act'],
+            answer: 'False'
+        },
+        {
+            text: ['Which of the following entities must provide a Privacy Notice', 'Business Associates'],
+            answer: 'Both A and C'
+        },
+        {
+            text: ['In order to simplify things, a colleague suggests that we require anyone who uses our services to waive all rights under HIPAA by signing a broad authorization to use their PHI in any way necessary'],
+            answer: 'No'
+        },
+        {
+            text: ['A privacy breach occurs when there has been unauthorized internal or external access to PHI', 'There are no exceptions'],
+            answer: 'False'
+        },
+        {
+            text: ['If you become aware of a small privacy breach, there is no need to bother your supervisor or the Privacy Officer with the information'],
+            answer: 'False'
+        },
+        {
+            text: ['Which of the following statements is FALSE regarding the actions that must be taken if there is a privacy breach affecting over 500 individuals in a single state'],
+            answer: '?'
+        },
+        {
+            text: ['When is a valid authorization required', 'When releasing PHI to an employer from a pre-employment screening'],
+            answer: 'When releasing PHI to an employer from a pre-employment screening'
+        },
+        {
+            text: ['A signed acknowledgement of receipt of a Privacy Notice is NOT the same as an authorization'],
+            answer: 'True'
+        },
+        {
+            text: ['A valid authorization must contain which of the following', 'A specific description of the PHI to be used or disclosed'],
+            answer: '?'
+        },
+        {
+            text: ['A representative of a government agency asks to see an individual', 'You are not sure whether the disclosure would be proper under HIPAA'],
+            answer: 'Ask the Privacy Officer before releasing the necessary information.'
+        },
+        {
+            text: ['When an individual files a complaint, our policy allows you to respond in which of the following ways'],
+            answer: 'Refraining from taking intimidating or retaliatory actions.'
+        },
+        {
+            text: ['An individual asks to see her medical record', 'She then asks to have an error in it corrected', 'How much time do we have in order to make the correction'],
+            answer: '60 days'
+        },
+        {
+            text: ['All of the following are PHI EXCEPT', 'A personal letter your best friend writes to'],
+            answer: 'A personal letter your best friend writes to you in which she mentions she has been diagnosed with asthma.'
+        },
+        {
+            text: ['A Privacy Notice is not the same as an authorization', 'When an individual is given a Privacy Notice, it does NOT mean that his or her PHI can be released.'],
+            answer: 'True'
+        },
+        {
+            text: ['When engaging in TPO (Treatment, Payment, and Operations), a Covered Entity MUST have individual authorization in order to use PHI.'],
+            answer: 'False'
+        },
+        {
+            text: ['Which of the following does HIPAA require us to do', 'Safeguard Protected Health Information'],
+            answer: 'Both A and C'
+        },
+        {
+            text: ['To be individually identifiable, health information must do which of the following'],
+            answer: 'Both A and B'
+        },
+        // 2020 Employee Policies
+        // {
+        //     text: [''],
+        //     answer: ''
+        // },
+        // ??
         {
             text: ['Paper files with sensitive data are only to be kept for the immediate business need. If files are needed'],
             answer: 'True'
@@ -444,10 +920,6 @@
         {
             text: ['To prevent unauthorized use to personal computers (PC), log-off your PC any time you to walk away'],
             answer: 'True'
-        },
-        {
-            text: ['Departmental policies and procedures, including manuals, manual codes,'],
-            answer: '7 years'
         },
         {
             text: ['I certify that I have received, read, and fully understand the'],
@@ -642,8 +1114,8 @@
             answer: 'Integration, Placement, Layering'
         },
         {
-            text: ['When a customer purchases money orders or traveler'],
-            answer: 'Between 5000 and 9999'
+            text: ['When a customer purchases money orders or traveler', 'checks for cash for which amounts must an institution obtain'],
+            answer: 'From $3,000 to $10,000, inclusive'
         },
         {
             text: ['s Customer Identification Program (CIP) applies to all customers.'],
@@ -904,14 +1376,14 @@
                 postMessage(`Answer:<br />${item.answer}`);
                 found = true;
             }
-
-            closeDumbDialogs()
-            clickNext();
         });
 
         if (!found) {
             postMessage('');
         }
+
+        closeDumbDialogs()
+        clickNext();
     }
 
     setInterval(check, 500);
