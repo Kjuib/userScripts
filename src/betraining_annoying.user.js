@@ -1100,7 +1100,10 @@
             text: ['The primary difference between money laundering and terrorist financing is that the intent of money laundering is to hide the ________ of funds, whereas terrorist financing seeks to hide the _______ of the funds.'],
             answer: 'Source / Purpose'
         },
-
+        {
+            text: ['A long-time customer in good standing comes in and does a transaction with $6,000. It\'s not a typical banking transaction for this customer, and he leaves you puzzled by the request. You know the transaction is out of the ordinary for the customer, as you have tended his regular transactions over the years. Since you know the customer, what should you do?']
+            answer: 'Report it as Suspicious Activity'
+        },
         {
             text: ['he primary purpose of the Bank Secrecy Act (BSA) is to assist the United States government in the detection and prevention of money laundering, terrorist financing, and other illegal financial activity'],
             answer: 'true'
