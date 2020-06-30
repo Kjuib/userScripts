@@ -1101,7 +1101,7 @@
             answer: 'Source / Purpose'
         },
         {
-            text: ['A long-time customer in good standing comes in and does a transaction with $6,000. It\'s not a typical banking transaction for this customer, and he leaves you puzzled by the request. You know the transaction is out of the ordinary for the customer, as you have tended his regular transactions over the years. Since you know the customer, what should you do?']
+            text: ['A long-time customer in good standing comes in and does a transaction with $6,000. It\'s not a typical banking transaction for this customer, and he leaves you puzzled by the request. You know the transaction is out of the ordinary for the customer, as you have tended his regular transactions over the years. Since you know the customer, what should you do?'],
             answer: 'Report it as Suspicious Activity'
         },
         {
