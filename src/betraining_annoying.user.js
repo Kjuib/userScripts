@@ -654,6 +654,14 @@
         },
         // DI - Language
         {
+            text: ['Select all that apply. Language choices that are appropriate for the workplace include'],
+            answer: 'B. She is hearing-impaired<br />H. Analysts can succeed at ABC Bank if they work hard'
+        },
+        {
+            text: ['If an individual is offended by my language choices, I can apologize and then ask what he or she would prefer'],
+            answer: 'True'
+        },
+        {
             text: ['Silence occurs while you are interacting with a non-native English speaker', 'This could mean that the other'],
             answer: 'All of the above'
         },
@@ -695,12 +703,16 @@
             answer: 'All of the above'
         },
         {
-            text: ['Under the BDPR, EU data subject have the rights to'],
+            text: ['Under the GDPR, EU data subject have the rights to'],
             answer: 'All of the above'
         },
         {
             text: ['Select all that apply. Under the GDPR, a request for consent must'],
             answer: '- Be unambiguous<br />- Be easily accessible<br />- Be distinguishable from other documents<br />- Use clear and plain language<br />- Have the purpose for data processing attached'
+        },
+        {
+            text: ['Which of the following statements is FALSE regarding the actions that must be taken if there is a privacy breach affecting over 500 individuals in a single state'],
+            answer: 'B) You must alert the media immmediately'
         },
         {
             text: ['GDPR', 'stands for', 'General Data Protection Regulation'],
@@ -745,6 +757,14 @@
         {
             text: ['Covered financial institutions will have to implement processes to comply with the new GDPR'],
             answer: '72'
+        },
+        {
+            text: ['Processors with', 'or more employees are required to maintain a record of all categories of processing activity carried out on behalf'],
+            answer: 'E 250'
+        },
+        {
+            text: ['The GDPR is a directive that sets out a goal that all EU countries must achieve and leaves it up to the individual countries to decide how'],
+            answer: 'False'
         },
         // HH-101 HIPAA HITECH Privacy for Business Associates
         {
@@ -873,7 +893,7 @@
         },
         {
             text: ['A valid authorization must contain which of the following', 'A specific description of the PHI to be used or disclosed'],
-            answer: '?'
+            answer: 'A specific description of the PHI to be used or disclosed'
         },
         {
             text: ['A representative of a government agency asks to see an individual', 'You are not sure whether the disclosure would be proper under HIPAA'],
@@ -1391,3 +1411,4 @@
 
     setInterval(check, 500);
 })();
+
