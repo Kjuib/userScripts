@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         betraining.com Enhancements
 // @namespace    https://github.com/Kjuib/userScripts/raw/master/src/betraining_annoying.user.js
-// @version      0.1
+// @version      0.2
 // @description  make training less annoying
 // @author       heber.billings@gmail.com
 // @match        https://portal.betraining.com/scorm*
@@ -391,6 +391,10 @@
             answer: '6 Years - An accident...<br />5 Years - A disciplinary...<br />Permanently - The termination...'
         },
         {
+            text: ['signed credit card slip.', 'payroll records fro the past month'],
+            answer: '2 Years - A customers signed credit...<br />7 Years - The payroll records...<br />Permanently - The annual financial...'
+        },
+        {
             text: ['An accident report filed by an employee 2 years ago.', 'A document relating to the promotion of an employee 6 years ago.'],
             answer: 'Saved - An accident...<br />Destroyed - A document...<br />Destroyed - An email regarding...'
         },
@@ -446,6 +450,10 @@
         },
         {
             text: ['Cardholder data can be stored electronically, but must be done securely, for example by encryption.'],
+            answer: 'True'
+        },
+        {
+            text: ['Cardholder data should not be stored at any time in any form whether on physical or electronic media'],
             answer: 'True'
         },
         {
@@ -1236,6 +1244,88 @@
             text: ['s checks for cash for which amounts must an institution obtain and retain certain information about the customer'],
             answer: 'between 5000 and 9999'
         },
+        // Anti-Money Laundering (AML) / Bank Secrecy Act (BSA) - E3
+        {
+            text: ['Money laundering is the process by which the proceeds of legitimate activity are introduced into the mainstream'],
+            answer: 'false'
+        },
+        {
+            text: ['The purpose of money laundering is to'],
+            answer: 'Disguise the origin of funds derived from criminal activity'
+        },
+        {
+            text: ['The three independent steps to laundering money are'],
+            answer: 'Placement, layering, and integration'
+        },
+        {
+            text: ['involves moving funds around in the financial system to obscure'],
+            answer: 'Layering'
+        },
+        {
+            text: ['Structuring is a scheme money launderers use to'],
+            answer: 'Place'
+        },
+        {
+            text: ['The process of legitimizing funds, such as through a front company, is'],
+            answer: 'Integration'
+        },
+        {
+            text: ['For the laundering process to be a success, the three'],
+            answer: 'true'
+        },
+        {
+            text: ['The negative impact of money laundering on the integrity'],
+            answer: 'All of the above'
+        },
+        {
+            text: ['The landmark law targeting money laundering is the'],
+            answer: 'Bank Secrecy Act'
+        },
+        {
+            text: ['The Bank Secrecy Act (BSA) is the law that requires all bank'],
+            answer: 'All of the above'
+        },
+        {
+            text: ['By sharing information gathered in CTR and SAR reports'],
+            answer: 'true'
+        },
+        {
+            text: ['This law made amendments to the BSA to place greater emphasis on compliance'],
+            answer: 'Annunzio-Wylie Anti-Money Laundering Act'
+        },
+        {
+            text: ['The USA PATRIOT Act made', 'a bureau within the Treasury Department'],
+            answer: 'Financial Crimes Enforcement Network'
+        },
+        {
+            text: ['Individual employees and their financial institutions can receive civil'],
+            answer: 'true'
+        },
+        {
+            text: ['Institution employees are protected from civil and criminal penalties'],
+            answer: 'false'
+        },
+        {
+            text: ['A decline in public confidence resulting from criminal actions taken against'],
+            answer: 'Intangible'
+        },
+        {
+            text: ['is a methodology that allows financial institutions to effectively implement'],
+            answer: 'Risk-based approach'
+        },
+        {
+            text: ['This tool assists financial institutions in understanding the inherent'],
+            answer: 'Risk assessment'
+        },
+        {
+            text: ['Which of the following pose a risk at financial institutions for money laundering'],
+            answer: '- Products/services<br />- Customers/entities<br />- Geographic locations'
+        },
+        {
+            text: ['All financial institutions are required to have a written AML compliance'],
+            answer: 'All of the above'
+        },
+
         // FSC - AML Awareness and Protection
         {
             text: ['Placement, layering, and integration are steps in this criminal process of exploiting financial services businesses.'],
@@ -1386,6 +1476,15 @@
             const nextButton = document.querySelector('iframe').contentWindow.document.querySelector('frame').contentWindow.document.body.querySelector('.page_nav_inner input[value="Next"]');
             if (nextButton) {
                 nextButton.click();
+            }
+        } catch (e) {
+            // ignore
+        }
+
+        try {
+            const continueButton = document.querySelector('.artisan-question.graded button');
+            if (continueButton) {
+                continueButton.click();
             }
         } catch (e) {
             // ignore
