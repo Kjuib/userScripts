@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         betraining.com Enhancements
 // @namespace    https://github.com/Kjuib/userScripts/raw/master/src/betraining_annoying.user.js
-// @version      0.2
+// @version      0.2.1
 // @description  make training less annoying
 // @author       heber.billings@gmail.com
 // @match        https://portal.betraining.com/scorm*
@@ -888,10 +888,6 @@
             answer: 'False'
         },
         {
-            text: ['Which of the following statements is FALSE regarding the actions that must be taken if there is a privacy breach affecting over 500 individuals in a single state'],
-            answer: '?'
-        },
-        {
             text: ['When is a valid authorization required', 'When releasing PHI to an employer from a pre-employment screening'],
             answer: 'When releasing PHI to an employer from a pre-employment screening'
         },
@@ -1012,28 +1008,8 @@
             answer: 'false'
         },
         {
-            text: ['A representation may be __________ if the majority of consumers in the target class do not share the consumer'],
-            answer: 'Deceptive'
-        },
-        {
-            text: ['Under Regulation Z and the Truth in Lending Act, creditors must'],
-            answer: 'Clearly'
-        },
-        {
-            text: ['The Federal Trade Commission (FTC) has the authority to protect consumers'],
-            answer: 'true'
-        },
-        {
-            text: ['Who has rulemaking authority for UDAAP?'],
-            answer: 'CFPB'
-        },
-        {
             text: ['All of the following are required to support the standard for unfairness under UDAAP, EXCEPT'],
             answer: 'The injury was not caused on purpose'
-        },
-        {
-            text: ['Substantial injury can include monetary harm.'],
-            answer: 'true'
         },
         {
             text: ['Emotional impact may not amount to or contribute to substantial injury'],
@@ -1046,18 +1022,6 @@
         {
             text: ['A representation may be deceptive even if the majority of consumers in the target class'],
             answer: 'true'
-        },
-        {
-            text: ['The legal standards for abusive, unfair, and deceptive acts'],
-            answer: 'false'
-        },
-        {
-            text: ['What is a red flag to conduct a detailed review of a practice?'],
-            answer: 'Presense of Complaints'
-        },
-        {
-            text: ['A single substantive complaint does not warrant further review or raise serious concerns.'],
-            answer: 'false'
         },
         {
             text: ['When reviewing complaints for your financial services company'],
@@ -1088,28 +1052,12 @@
             answer: 'true'
         },
         {
-            text: ['Procedures and scripts used by internal or external debt collectors is not'],
-            answer: 'false'
-        },
-        {
-            text: ['Social media communications do not have to be reviewed'],
-            answer: 'false'
-        },
-        {
-            text: ['Underwriting of credit files should accurately represent the amount of usable credit that the consumer will receive, '],
-            answer: 'true'
-        },
-        {
             text: ['but the company does not need to monitor the activities of third-party'],
             answer: 'false'
         },
         {
             text: ['All of the following fall represent a higher-risk for UDAAP compliance EXCEPT'],
             answer: 'Loans secured by property'
-        },
-        {
-            text: ['Financial institutions do not need to identify inherent risks related to consumer harm'],
-            answer: 'false'
         },
         {
             text: ['A(n) _______ is a waiver of the consumer'],
@@ -1326,6 +1274,423 @@
             answer: 'All of the above'
         },
 
+        // Unfair, Deceptive, or Abusive Acts or Practices for the Financial
+        {
+            text: ['Financial institutions must monitor the activities of employees to ensure they do'],
+            answer: 'false'
+        },
+        {
+            text: ['Types of systematic measures acting as internal controls instituted by a financial institution include'],
+            answer: 'All of the above'
+        },
+        {
+            text: ['Under the Regulation Z Truth in Lending Act, creditors must disclose the costs and terms of credit'],
+            answer: 'Clearly and conspicuously'
+        },
+        {
+            text: ['The Federal Trade Commission (FTC) has the authority to protect consumers against unfair or'],
+            answer: 'true'
+        },
+        {
+            text: ['Who has rulemaking authority for UDAAP?'],
+            answer: 'CFPB'
+        },
+        {
+            text: ['What is required to support the standard for unfairness under UDAAP'],
+            answer: 'All of the above'
+        },
+        {
+            text: ['Substantial injury can include monetary harm.'],
+            answer: 'true'
+        },
+        {
+            text: ['In certain circumstances, such as unreasonable debt collection harassment, emotional impacts may amount or contribute to substantial injury'],
+            answer: 'true'
+        },
+        {
+            text: ['What must be present to show that an act or practice is deceptive under UDAAP'],
+            answer: 'All of the above'
+        },
+        {
+            text: ['A representation may be deceptive if the majority of consumers in the target class do not share the consumer'],
+            answer: 'true'
+        },
+        {
+            text: ['The legal standards for abusive, unfair, and deceptive acts'],
+            answer: 'false'
+        },
+        {
+            text: ['What is a red flag to conduct a detailed review of a practice?'],
+            answer: 'Presence of complaints'
+        },
+        {
+            text: ['A single substantive complaint does not warrant further review or raise serious concerns.'],
+            answer: 'false'
+        },
+        {
+            text: ['When reviewing complaints for your institution, you should also consider complaints lodged against'],
+            answer: 'All of the above'
+        },
+        {
+            text: ['Under the Regulation Z Truth-in-Lending Act, creditors must "clearly and conspicuously" disclose the costs and terms of credit'],
+            answer: 'true'
+        },
+        {
+            text: ['An unfair, deceptive, or abusive act or practice cannot violate other federal or state laws'],
+            answer: 'false'
+        },
+        {
+            text: ['The financial institution', 'overarching policies are administered by the'],
+            answer: 'Both A and B'
+        },
+        {
+            text: ['Financial institutions should ensure UDAAP requirements are included in written procedures'],
+            answer: 'Annual report to investors'
+        },
+        {
+            text: ['Types of systematic measures acting as internal controls instituted by a financial institution'],
+            answer: 'true'
+        },
+        {
+            text: ['Procedures and scripts used by internal or external debt collectors is not'],
+            answer: 'false'
+        },
+        {
+            text: ['Social media communications do not have to be reviewed'],
+            answer: 'false'
+        },
+        {
+            text: ['Underwriting of credit files should accurately represent the amount of usable credit that the consumer will receive, '],
+            answer: 'true'
+        },
+        {
+            text: ['Financial institutions must monitor the activities of employees to ensure they do not engage'],
+            answer: 'false'
+        },
+        {
+            text: ['What falls under higher risk for UDAAP compliance?'],
+            answer: 'All of the above'
+        },
+        {
+            text: ['The three ways that consumer harm may occur are'],
+            answer: 'Quantifiable harm, non-quantifiable harm, potential harm'
+        },
+        {
+            text: ['Financial institutions do not need to identify inherent risks related to consumer harm'],
+            answer: 'false'
+        },
+        {
+            text: ['A waiver of the consumer', 'right to contest legal actions in regard to an extension of credit is called'],
+            answer: 'Confession of judgment'
+        },
+        {
+            text: ['A cosigner shares the responsibility for the debt with the borrower. If the borrower'],
+            answer: 'true'
+        },
+        {
+            text: ['The requirement of a creditor, as a condition of granting credit, of an irrevocable claim to'],
+            answer: 'Assignment of wages'
+        },
+        {
+            text: ['An institution' ,'can be denied in the face of consumer complaints'],
+            answer: 'All of the above'
+        },
+
+        // California Consumer Privacy Act (CCPA)
+        {
+            text: ['The CCPA stands for'],
+            answer: 'California Consumer Privacy Act'
+        },
+        {
+            text: ['A representation may be', 'if the majority of consumers in the target class do not share the consumer'],
+            answer: 'Deceptive'
+        },
+        {
+            text: ['The CCPA broadly describes personal information as any information'],
+            answer: 'true'
+        },
+        {
+            text: ['The CCPA states that companies can sell the information of the people who'],
+            answer: 'false'
+        },
+        {
+            text: ['The CCPA says that businesses have', 'to fix problems or unauthorized access'],
+            answer: '30'
+        },
+        {
+            text: ['The CCPA Act provides residents with the right to'],
+            answer: '- Access their personal data<br />- Know what personal data...<br />- Know whether their personal...<br />- Not be discriminated against...<br />- Request that a business delete...<br />- Say no to the sale of personal data...'
+        },
+        {
+            text: ['Fines for violations of the CCPA from the Attorney General'],
+            answer: '$2,500 for unintentional violations and $7,500 for intentional violations'
+        },
+        {
+            text: ['If a business has been notified of alleged noncompliance with the CCPA, how many days'],
+            answer: '30 days'
+        },
+        {
+            text: ['Generally, nonprofit entities are subject to the laws of the CCPA'],
+            answer: 'false'
+        },
+        {
+            text: ['Which of the following qualify as covered personal information'],
+            answer: '- Education Information<br />- Fingerprints<br />- Residential address'
+        },
+        {
+            text: ['A consumer has the right to access their personal information that has been collected from an organization'],
+            answer: 'true'
+        },
+        {
+            text: ['At a minimum, how often must a business update disclosures in their privacy policies?'],
+            answer: 'Annually'
+        },
+        {
+            text: ['How many channels must a business offer through which a consumer'],
+            answer: 'Two channels'
+        },
+        {
+            text: ['Does a consumer have the right to opt out of the sale of their personal information'],
+            answer: 'yes'
+        },
+        {
+            text: ['Does a customer have the right to request that personal data collected by a company be removed'],
+            answer: 'yes'
+        },
+        {
+            text: ['Who is covered by the CCPA'],
+            answer: 'California residents'
+        },
+
+        // DI - Discrimination
+        {
+            text: ['Protected classes under federal law include'],
+            answer: '- Skin color<br />- Sex<br />- Sexual orientation<br />- Age<br />- Religion'
+        },
+        {
+            text: ['Only women are protected from sex-based wage discrimination, according to the Equal Pay Act of 1963'],
+            answer: 'false'
+        },
+        {
+            text: ['Customers cannot discriminate against employees'],
+            answer: 'false'
+        },
+        {
+            text: ['Federal law prohibits discrimination in employment decisions such as recruiting, firing, and benefits'],
+            answer: 'true'
+        },
+        {
+            text: ['Marital status is considered a characteristic protected by federal law'],
+            answer: 'false'
+        },
+        {
+            text: ['Only employees are protected against discrimination'],
+            answer: 'false'
+        },
+        {
+            text: ['States have their own laws that protect certain groups from discrimination'],
+            answer: 'true'
+        },
+        {
+            text: ['The Age Discrimination in Employment Act protects employees and job applicants older than 40'],
+            answer: 'true'
+        },
+        {
+            text: ['Reporting discrimination makes your employer responsible for stopping the behavior'],
+            answer: 'true'
+        },
+        {
+            text: ['Following your company', 'anti-discrimination policies is important to preventing future incidents'],
+            answer: 'true'
+        },
+        {
+            text: ['The Age Discrimination in Employment Act of 1967 protects employees and job applicants who are over 18 years old'],
+            answer: 'false'
+        },
+        {
+            text: ['The Equal Credit Opportunity Act', 'Prohibits discrimination in credit transactions'],
+            answer: 'Prohibits discrimination in credit transactions'
+        },
+        {
+            text: ['All of the following are federal anti-discrimination laws EXCEPT', 'Pregnancy Discrimination Act'],
+            answer: 'Workplace Rights Act'
+        },
+        {
+            text: ['Employees have a responsibility to', 'Ignore behaviors that make them uncomfortable'],
+            answer: 'Follow their companys anti-discrimination policy'
+        },
+        {
+            text: ['All of the following are considered protected classes under federal anti-discrimination laws EXCEPT'],
+            answer: 'Marital status'
+        },
+        {
+            text: ['is a federal agency that investigates and mediates complaints of discrimination'],
+            answer: 'EEOC'
+        },
+        {
+            text: ['You should follow your company', 'anti-discrimination policies before going through any legal channels'],
+            answer: 'true'
+        },
+        {
+            text: ['A policy or procedure that affects one protected class more than others is known as'],
+            answer: 'Disparate impact'
+        },
+        {
+            text: ['Federal law only protects employees against discrimination that occurs in the workplace, not if it occurs in social settings, such as company picnics or retreats'],
+            answer: 'false'
+        },
+        {
+            text: ['is a term used to describe a type of discrimination that treats an individual in a protected class differently than other employees'],
+            answer: 'true'
+        },
+        {
+            text: ['Offering training to employees under age 40 but not offering it to an older, longtime employee is an example of'],
+            answer: 'None of the above'
+        },
+        {
+            text: ['Anti-discrimination laws do not protect customers'],
+            answer: 'false'
+        },
+        {
+            text: ['Friendly jokes between colleagues cannot be discrimination'],
+            answer: 'false'
+        },
+
+        // DI - Barriers to Inclusion
+        {
+            text: ['There are various negative behaviors that arise from negative attitudes toward others. Match each term with its description'],
+            answer: '- Ethnocentrism: The belief that one...<br />- Prejudice: A preconceived feeling...<br />- Stereotype: An assumption about the traits...<br />- Discrimination: Treating people unequally...'
+        },
+        {
+            text: ['is the belief that one', 'own group is superior to all others'],
+            answer: 'Ethnocentrism'
+        },
+        {
+            text: ['A common prejudice is that young people are slackers'],
+            answer: 'true'
+        },
+        {
+            text: ['Discrimination in the workplace can lead to unfair policies and procedures that may be illegal'],
+            answer: 'true'
+        },
+        {
+            text: ['include negative attitudes that can lead to negative behavior'],
+            answer: 'Personal barriers'
+        },
+        {
+            text: ['Which of the following is an example of when a person is being', 'excessively PC'],
+            answer: 'Asking for suggestions from women but ignoring the answers anyway'
+        },
+        {
+            text: ['A woman is not promoted to a competitive position because the manager wants to protect her from harassment'],
+            answer: 'true'
+        },
+        {
+            text: ['occurs when organizations, institutions, or governments discriminate, either deliberately or indirectly, against certain'],
+            answer: 'Institutional racism'
+        },
+        {
+            text: ['Barriers to inclusion, such as prejudice, can affect'],
+            answer: 'All of the above'
+        },
+        {
+            text: ['All of the following are examples of when a person is being', 'excessively PC'],
+            answer: 'A friendship is forged with someone who belongs to a minority group'
+        },
+        {
+            text: ['Most people tend to surround themselves with people who speak, look, and dress differently from themselves'],
+            answer: 'false'
+        },
+        {
+            text: ['occurs when organizations discriminate, either deliberately or indirectly, against certain groups of people to limit'],
+            answer: 'None of the above'
+        },
+        {
+            text: ['Race, gender or sexual orientation, language skills, age, and education have been used to exclude capable employees'],
+            answer: 'true'
+        },
+
+        // DI - Cross-Cultural Business
+        {
+            text: ['Which of the following are challenges in conducting cross-cultural business'],
+            answer: '- Building trust<br />- Communications<br />- Making customers and prospects feel comfortable<br />- Knowing customers needs'
+        },
+        {
+            text: ['When presenting material to customers', 'Take a shy approach'],
+            answer: '- Use your connections<br />- Share of yourself<br />- Pronounce names correctly<br />- Build the relationship<br />- Be formal'
+        },
+        {
+            text: ['Learning how to build relationships and present your product or service to culturally different prospects'],
+            answer: 'true'
+        },
+        {
+            text: ['is a technique to confirm your understanding of what another person means by rephrasing'],
+            answer: 'Paraphrasing'
+        },
+        {
+            text: ['Which is the most effective way to present your product or service to culturally different prospects'],
+            answer: 'Be pleasant and dont be too pushy'
+        },
+        {
+            text: ['The key to cross-cultural sales and service is sensitivity and awareness'],
+            answer: 'true'
+        },
+        {
+            text: ['Which is one of the best ways to pick out the decision-maker within a community, company, or family'],
+            answer: 'Use observation skills to decide who seems to be the leader'
+        },
+
+        // DI - Documentation for Managers
+        {
+            text: ['One Friday, two employees get into a physical argument over who is responsible for cleaning up before the office closes for the weekend. As the manager, you have to step in, separate the employees and offer a solution'],
+            answer: 'false'
+        },
+        {
+            text: ['You decide to write up an overview of the previous situation. All of the following information needs to be included EXCEPT'],
+            answer: 'Names of other employees disturbed by the incident'
+        },
+        {
+            text: ['Documentation should contain', 'Fact-based statements'],
+            answer: 'Fact-based statements'
+        },
+        {
+            text: ['Employers should retain employee records for at least', 'years after an employee leaves the company'],
+            answer: 'Four'
+        },
+        {
+            text: ['Documentation is a complex, time-consuming process'],
+            answer: 'false'
+        },
+        {
+            text: ['If a job description is written broadly, it helps prevent discrimination lawsuits'],
+            answer: 'false'
+        },
+        {
+            text: ['Which law protects employees over 40 and requires companies to keep payroll or other records containing each employe'],
+            answer: 'The Age Discrimination in Employment Act'
+        },
+        {
+            text: ['All of the following belong in a personnel file EXCEPT', 'Job application'],
+            answer: 'Personal bank statements'
+        },
+        {
+            text: [''],
+            answer: ''
+        },
+        {
+            text: [''],
+            answer: ''
+        },
+        {
+            text: [''],
+            answer: ''
+        },
+        {
+            text: [''],
+            answer: ''
+        },
+
+
         // FSC - AML Awareness and Protection
         {
             text: ['Placement, layering, and integration are steps in this criminal process of exploiting financial services businesses.'],
@@ -1482,7 +1847,7 @@
         }
 
         try {
-            const continueButton = document.querySelector('.artisan-question.graded button');
+            const continueButton = document.querySelector('iframe').contentWindow.document.querySelector('frame').contentWindow.document.body.querySelector('.artisan-question.graded button');
             if (continueButton) {
                 continueButton.click();
             }
