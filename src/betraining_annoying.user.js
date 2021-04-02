@@ -1673,22 +1673,6 @@
             text: ['All of the following belong in a personnel file EXCEPT', 'Job application'],
             answer: 'Personal bank statements'
         },
-        {
-            text: [''],
-            answer: ''
-        },
-        {
-            text: [''],
-            answer: ''
-        },
-        {
-            text: [''],
-            answer: ''
-        },
-        {
-            text: [''],
-            answer: ''
-        },
 
 
         // FSC - AML Awareness and Protection
@@ -1859,7 +1843,7 @@
     function check() {
         let found = false;
         questions.forEach((item) => {
-            if (contains(item.text)) {
+            if (item.answer && contains(item.text)) {
                 postMessage(`Answer:<br />${item.answer}`);
                 found = true;
             }
